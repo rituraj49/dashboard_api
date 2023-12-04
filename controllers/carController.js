@@ -24,7 +24,7 @@ export const createCar = async(req, res) => {
     } catch (error) {
         return res.status(404).send({
             success: false,
-            message: "failed to fetch cars",
+            message: "failed to create brand",
             error
         });
     }
